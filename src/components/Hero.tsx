@@ -2,7 +2,7 @@ import { ArrowDown, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Hero = () => {
-  const resumeLink = "https://drive.google.com/uc?export=download&id=16AlaHrFrlWCEaEyGJiYIATJrROpndBmN";
+  const resumeLink = "https://drive.google.com/file/d/16AlaHrFrlWCEaEyGJiYIATJrROpndBmN/view?usp=drive_link";
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center py-20 overflow-hidden">
