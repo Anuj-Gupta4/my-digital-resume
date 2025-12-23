@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
-  const resumeLink = "https://drive.google.com/uc?export=download&id=16AlaHrFrlWCEaEyGJiYIATJrROpndBmN";
+  const resumeLink = "https://drive.google.com/file/d/16AlaHrFrlWCEaEyGJiYIATJrROpndBmN/view?usp=drive_link";
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/80 backdrop-blur-lg">
