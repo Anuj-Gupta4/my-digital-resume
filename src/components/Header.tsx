@@ -1,5 +1,6 @@
-import { Download, Github, Linkedin, Mail } from "lucide-react";
+import { Download, Github, Linkedin } from "lucide-react";
 import { Button } from "./ui/button";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   const resumeLink = "https://drive.google.com/uc?export=download&id=16AlaHrFrlWCEaEyGJiYIATJrROpndBmN";
@@ -27,6 +28,7 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-2">
+          <ThemeToggle />
           <a href="https://github.com/Anuj-Gupta4/" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="text-muted-foreground hover:text-foreground">
               <Github className="h-5 w-5" />
