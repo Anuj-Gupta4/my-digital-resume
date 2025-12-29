@@ -1,5 +1,5 @@
 # Welcome to my portfolio website.
-You can view it here: http://anujgupta.com.np/
+You can view it here: https://anujgupta.com.np/
 
 ## What technologies are used for this project?
 
